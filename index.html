@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SRT 621 Assignment</title>
+    <link rel="stylesheet" href="game.css"></style>
+  </head>
+  <body>
+    <h1>Welcome to Tic-Tac-Toe Game</h1>
+    <div class="playercontainer">
+        <div class="player">
+            <label>Player #1 </label>
+            <input id="player1" type="text" placeholder="Enter Player 1 Name"/>
+            <label>Player #2 </label>
+            <input id="player2" type="text" placeholder="Enter Player 2 Name"/>
+        </div>
+        <div class="button">
+            <button id="submit" type="submit">Play</button>
+            <button id="reset" type="reset">Reset</button>
+        </div>
+        <span id="error"></span>
+
+    <div class="container">
+        <div id="nextTurn">PLAYER: <span id="playerTurn"></span></div>
+        <div class="gamecontainer">
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+          </div>
+
+          <div class="infocontainer">
+             
+              <span id="commentheader">Comments</span>
+              <span id="info"><br></span>
+    </div>
+
+    </div>
+    <script src="game.js"></script>
+    </body>
+  </body>
+</html>
